@@ -1,0 +1,27 @@
+[package]
+name = "r1fc-convert"
+version = "0.1.0"
+edition = "2021"
+description = "Conversion worker for the R1fc Windows 11 context menu"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+winapi = { version = "0.3", features = [
+    "commctrl",
+    "handleapi",
+    "libloaderapi",
+    "minwindef",
+    "processthreadsapi",
+    "shellapi",
+    "winbase",
+    "windef",
+    "wingdi",
+    "winnt",
+    "winuser",
+] }
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1

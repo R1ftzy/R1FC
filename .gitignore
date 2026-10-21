@@ -1,0 +1,42 @@
+# Build output
+/build/
+/dist/
+/release/
+/src/worker/target/
+**/*.rs.bk
+
+# Visual Studio / CMake user state
+.vs/
+CMakeUserPresets.json
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# IDE / OS clutter
+.vscode/
+.idea/
+.opencode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and temporary conversion files
+*.log
+.r1fc-*
+test-output/
+artifacts/
+
+# Packages and signing material
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.cer
+*.pfx
+*.pvk
+*.key
+*.zip
+
+# Keep source assets under version control:
+# packaging/Assets/*.png, packaging/Assets/*.ico, src/shell/icon.ico

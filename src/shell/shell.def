@@ -1,0 +1,4 @@
+LIBRARY r1fc-shell
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
