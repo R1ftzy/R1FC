@@ -1,4 +1,4 @@
-# R1fc Convert
+# R1FConvert
 
 Windows 11 context-menu image and video converter using installed ffmpeg.
 
